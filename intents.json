@@ -5,7 +5,7 @@
         "patterns": [
           "Hi",
           "Hey",
-          "How are you",
+          "Heyy",
           "Is anyone there?",
           "Hello",
           "Good day"
@@ -14,7 +14,8 @@
           "Hey :-)",
           "Hello, thanks for visiting",
           "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
+          "Hi there, how can I help?",
+          "Hello, how are you?"
         ]
       },
       {
@@ -23,12 +24,13 @@
         "responses": [
           "See you later, thanks for visiting",
           "Have a nice day",
-          "Bye! Come back again soon."
+          "Bye! Come back again soon.",
+          "Bye friend!"
         ]
       },
       {
         "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thankyou"],
         "responses": ["Happy to help!", "Any time!", "My pleasure"]
       },
       {
@@ -39,8 +41,8 @@
           "What do you sell?"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "We sell all kinds of items",
+          "Please take a look at our store"
         ]
       },
       {
@@ -69,6 +71,48 @@
         ]
       },
       {
+        "tag": "lost",
+        "patterns": [
+          "My item is lost",
+          "Where is my package?",
+          "Where is my item?",
+          "My package was not delivered",
+          "I can not find my package"
+        ],
+        "responses": [
+          "Please allow 2-5 days for shipping",
+          "Please be patient with shipping!"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "What is your name?",
+          "Who are you?",
+          "Tell me your name?",
+          "Tell me about yourself?"
+        ],
+        "responses": [
+          "I am Botmo",
+          "I am Botmo, nice to meet you"
+        ]
+      },
+      {
+        "tag": "feeling",
+        "patterns": [
+          "How are you?",
+          "Are you ok?",
+          "How is it going?",
+          "And you?",
+          "What is up?"
+        ],
+        "responses": [
+          "I'm good!",
+          "I love being a bot!",
+          "Botmo is happy to be your friend!"
+        ]
+      },
+      {
         "tag": "funny",
         "patterns": [
           "Tell me a joke!",
@@ -77,7 +121,8 @@
         ],
         "responses": [
           "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
+          "What did the buffalo say when his son left for college? Bison.",
+          "Did you hear about the racing snail who got rid of his shell? He thought it would make him faster, but it just made him sluggish."
         ]
       }
     ]
